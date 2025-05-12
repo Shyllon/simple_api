@@ -89,9 +89,9 @@ json
 Copy
 Edit
 [
-  { "id": 1, "name": "Alice" },
-  { "id": 2, "name": "Bob" },
-  { "id": 3, "name": "Charlie" }
+  { "id": 1, "name": "Afolabi" },
+  { "id": 2, "name": "Shyllon" },
+  { "id": 3, "name": "Great" }
 ]
 3. POST /users
 Description: Adds a new user
