@@ -1,5 +1,7 @@
 Simple API with Node.js and Express
+
 Table of Contents
+
 Project Overview
 
 Features
@@ -36,90 +38,71 @@ Express.js – Minimalist web framework for Node.js
 JavaScript – Programming language used for API logic
 
 Getting Started
+
 Prerequisites
+
 Ensure Node.js is installed on your machine
 
 Installation
-Clone this repository:
 
-bash
-Copy
-Edit
+1. Clone this repository:
+
 git clone https://github.com/Shyllon/simple_api.git
-Navigate to the project directory:
 
-bash
-Copy
-Edit
+2. Navigate to the project directory:
+
 cd simple_api
-Install dependencies:
 
-bash
-Copy
-Edit
+3. Install dependencies:
+
 npm install
-Start the server:
 
-bash
-Copy
-Edit
+4. Start the server:
+
 npm start
-Visit http://localhost:3000 in your browser.
 
-✅ You can also run tests using:
+5. Visit http://localhost:3000 in your browser.
 
-bash
-Copy
-Edit
+You can also run tests using:
+
 npm test
+
 API Endpoints
+
 1. GET /
 Description: Returns a welcome message
 Response:
 
-json
-Copy
-Edit
 "Welcome to the Simple API!"
+
 2. GET /users
 Description: Returns a list of users
 Response:
 
-json
-Copy
-Edit
 [
   { "id": 1, "name": "Afolabi" },
   { "id": 2, "name": "Shyllon" },
   { "id": 3, "name": "Great" }
 ]
+
 3. POST /users
 Description: Adds a new user
 Request Body:
 
-json
-Copy
-Edit
 { "name": "New User" }
 Response:
 
-json
-Copy
-Edit
 { "id": 4, "name": "New User" }
+
 Error Handling
 If name is missing in POST /users:
 
-json
-Copy
-Edit
 { "error": "Name is required" }
+
 For undefined routes:
 
-json
-Copy
-Edit
 { "error": "Route not found" }
+
 Contributing
 Contributions are welcome! Please submit a pull request or open an issue for bugs and suggestions.
 
